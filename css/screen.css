@@ -1,0 +1,76 @@
+body {
+  font-family: "Scada", sans-serif;
+  background-color: #fefefe;
+  color: #ffffff;
+  text-shadow: 0px 0px 20px #aaaaaa;
+  font-size: 12px;
+  min-width: 810px;
+  background: #6d085d;
+}
+
+.fps,
+.pleasewait,
+.score,
+.starttest,
+.extrainfo,
+.comparison {
+  text-align: center;
+  display: none;
+}
+
+.extrainfo {
+  margin-top: 4px;
+}
+
+.starttest {
+  display: block;
+  border: 2px solid white;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.front {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  margin: 100px auto 0 auto;
+  background: black;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  width: 300px;
+  min-height: 80px;
+  padding: 10px;
+  box-shadow: 0px 0px 20px #000000;
+}
+
+.score,
+.comparison {
+  margin: 5px 0 5px 0;
+}
+
+.renderwindow {
+  margin: 15px auto 0 auto;
+  border: 2px solid white;
+  width: 800px;
+  height: 600px;
+  border-radius: 5px;
+  background: black;
+  box-shadow: 0px 0px 20px #000000;
+}
+
+.donate {
+  text-align: center;
+  margin-top: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.copyright {
+  margin-top: 12px;
+  text-align: center;
+}
